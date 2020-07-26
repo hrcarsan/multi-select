@@ -1,0 +1,59 @@
+.multi_select {
+  position: relative;
+  display: inline-block;
+}
+
+.multi_select .link_container {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.multi_select .select_link {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.multi_select .selector_container {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+
+.multi_select .search {
+  width: 100%;
+  border: 1px solid #999999;
+  border-bottom: 0;
+}
+
+.multi_select .results_container {
+  overflow-y: auto;
+  box-sizing: border-box;
+  border: 1px solid #999999;
+}
+
+.multi_select .results {
+  width: 100%;
+  border-spacing: 0;
+  border: none;
+  border-collapse: collapse;
+}
+
+.multi_select .results tr {
+  cursor: default;
+}
+
+.multi_select .results .text-col {
+  padding: 2px 2px 2px 5px;
+}
+
+.multi_select .results .check-col {
+  padding: 2px;
+}
+
+.multi_select .check-col {
+  text-align: right;
+  width: 25px;
+}
+
